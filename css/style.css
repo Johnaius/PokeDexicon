@@ -1,0 +1,53 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section{
+  width: 50%;
+  height: 50vw;
+  float: left;
+  background-color: aqua;
+}
+.characteristics{
+  border-top: 10px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  color: rgb(2, 78, 78);
+  padding-left: 5%;
+  font-family: 'Roboto Mono', monospace;
+}
+.image{
+  background-image: url('https://cutewallpaper.org/21/pokedex-phone-wallpaper/720x1280-Pokedex-Phone-Wallpaper-by-RHLPixels-on-DeviantArt.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  width:50%;
+  margin-top:20%;
+}
+
+h1,input{
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+
+#attack1, #attack2{
+  text-decoration: underline;
+}
+
+div{
+  margin: 2%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
